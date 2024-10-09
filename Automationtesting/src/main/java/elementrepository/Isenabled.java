@@ -11,12 +11,14 @@ public class Isenabled extends Base{
 		WebElement txt=driver.findElement(By.xpath("//input[@id='single-input-field']"));
 System.out.println(txt.isEnabled());
 	}
-
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Isenabled obj=new Isenabled();
 		obj.initialisebrowser();
 		obj.enable();
+		
 
 	}
 
